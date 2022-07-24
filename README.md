@@ -2,7 +2,8 @@
 
 [竞赛官网](https://zte.hina.com/zte/denoise)
 
-## 方案
+## [方案](./docs/初赛.pptx)
+
 
 ## 程序说明
 

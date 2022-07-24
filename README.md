@@ -3,7 +3,7 @@
 [竞赛官网](https://zte.hina.com/zte/denoise)
 
 ## [方案](./docs/初赛.pptx)
-
+见`docs`文件夹
 
 ## 程序说明
 

@@ -33,7 +33,7 @@ cuda 11.2
                   ├── ...
                   └── 99_noise.dng
         └── test
-                ├── noisy0.dng
+              ├── noisy0.dng
               ├── ...
               └── noisy9.dng
   ```

@@ -48,7 +48,7 @@ cuda 11.2
     python train.py --save_dir restormer --arch restormer --gpu_ids 0\
             --batch_size 16 --crop_size 128 --lr 2e-4 --wd 1e-4 --total_iter 200000\
             --periods 100e3,100e3 --min_lrs 2e-4,1e-6 --warmup_steps 5000\
-            --dataset_dir ../Dataset/YOUR_DIR/train/ --use_checkpoint --num_workers 2\
+            --dataset_dir ../Dataset/YOUR_DIR/train/ --use_checkpoint --num_workers 2
     ```
   
   - 多卡，`--nproc_per_node`设为 GPU 数量，要求 batch size 能整除 GPU 数。
@@ -58,7 +58,7 @@ cuda 11.2
             train.py --save_dir restormer --arch restormer --gpu_ids 3,4,5,7\
             --batch_size 16 --crop_size 128 --lr 2e-4 --wd 1e-4 --total_iter 200000\
             --periods 100e3,100e3 --min_lrs 2e-4,1e-6 --warmup_steps 5000\
-            --dataset_dir ../Dataset/YOUR_DIR/train/ --num_workers 2\
+            --dataset_dir ../Dataset/YOUR_DIR/train/ --num_workers 2
     ```
   
   `--save_dir`：训练日志和checkpoint会保存到`./log/{save_dir}/train/`。

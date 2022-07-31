@@ -101,4 +101,5 @@ cuda 11.2
 
 ### 验证
 `val.py`使用训练时保存的checkpoints在验证集上测试效果，遍历的checkpoints范围为(start_iter, stop_iter, stride)，这三个值可以自行指定。
+
 由于没有使用交叉验证，`val.py`已废弃。

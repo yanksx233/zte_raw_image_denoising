@@ -97,4 +97,8 @@ cuda 11.2
 
 `--strides`：小块测试时的步长。
 
-测试结果会保存到`./result`。由于没有使用交叉验证，`val.py`已废弃。
+测试结果会保存到`./result`。
+
+### 验证
+`val.py`使用训练时保存的checkpoints在验证集上测试效果，遍历的checkpoints范围为(start_iter, stop_iter, stride)，这三个值可以自行指定。
+由于没有使用交叉验证，`val.py`已废弃。

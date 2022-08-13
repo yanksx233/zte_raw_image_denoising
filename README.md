@@ -40,7 +40,7 @@ cuda 11.2
   
   放置`./docs/sidd.csv`到 `Dataset/SIDD_Medium_Raw/`下，运行`python generate_trainset.py `在单通道裁剪图像，会在`Dataset/`目录下生成相应文件夹`YOUR_DIR`，若不使用SIDD数据，注释相应代码即可，可以自行调整`generate_trainset.py`中的参数。`sidd.csv`来源见`test_SIDD.py`。
 
-- 训练Restormer。由于方案不断改进且时间仓促，从零训练用什么参数好我也不知道，不过随便训个200-300k应该有58分。比较推荐的训练参数见`./script/train.sh`，这些设置参考了NAFNet文章里的训练参数。
+- 训练Restormer。由于方案不断改进且时间仓促，从零训练用什么参数好我也不知道，不过随便训个200-300k应该有58分。比较推荐的训练参数见`./scripts/train.sh`，这些设置参考了NAFNet文章里的训练参数。
   
   - 单卡
     
